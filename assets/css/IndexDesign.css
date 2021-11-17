@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+#icon{
+    border: 1px solid #458FF6;
+    border-radius: 50px;
+    width: 40px;
+    height: 25px;
+    background-color: #458FF6;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    float: left;
+    margin-top: 25px;
+    margin-left: 160px;
+}
+
+#p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 32px;
+    padding-left: 215px;
+}
+
+#flex{
+    float: right;
+    display: flex;
+    width: 500px;
+    font-size: 15px;
+    margin-top: -16px;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+#img1{
+    float: right;
+    margin-top: 70px;
+    margin-right: 185px;
+}
+
+#pcontainer,#pcontainer2{
+    display: flex;
+    width: 400px;
+    height: 350px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+#p2{
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 170px;
+    
+}
+
+#button1{
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #458FF6;
+    color: white;
+    margin-left: 155px;
+    margin-top: 60px;
+}
+
+#info{
+    width: 1200px;
+    height: 700px;
+    margin:  350px auto;
+}
+
+#p3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#border{
+    
+    border: 1px solid black;
+    width: 50px;
+    margin: 20px auto;
+}
+
+#p4{
+    text-align: center;
+}
+
+#flex2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+#p5{
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#p6{
+    padding-top: 15px;
+    color: #7D7987;
+}
+
+#p7{
+    padding-top: 42px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#p8{
+    padding-top: 20px;
+    color: #7D7987;
+}
+
+#button2{
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: white;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#img2{
+    margin-top: 120px;
+    margin-left: 250px
+    
+}
+
+#pcontainer2{
+    float: right;
+    margin-right: 350px;
+    margin-top: -650px;
+    height: 600px;
+    text-align: left;
+    width: 500px;
+}
+
+#button3{
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #458FF6;
+    color: white;
+    margin-left: 0px;
+    margin-top: -50px;
+    background-color: white;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+}
+
+#border2{
+    border: 2px solid black;
+    width: 50px;
+    height: 0px;
+    margin-top: -30px;
+}
+
+#pp{
+    margin-top: -70px;
+}
+
+#img3{
+    float: right;
+    margin-right: 450px;
+    margin-top: -50px;
+}
+
+#pcontainer3{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 330px;
+    margin-top: 300px;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 25px;
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-top: 400px;
+}
+
+#border3{
+    border: 1px solid black;
+    width: 50px;
+}
+
+#pp2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#pp3{
+    color: #7D7987;
+}
+
+#button4{
+    width: 200px;
+    height: 30px;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #458FF6;
+    color: white;
+    background-color: white;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+}
+
+.pcontainer4{
+    width: 1120px;
+    height: 425px;
+    background-color: #5A98F2;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+#pp4{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#border4{
+    border: 1px solid white;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+
+#img4{
+    margin-top: 95px;
+    margin-left: 100px;
+    float: left;
+}
+
+.item2{
+    float: right;
+    margin-top: -55px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: white;
+}
+
+#pp5{
+    margin-top: 140px;
+    margin-left: 250px;
+    color: white;
+}
+
+#pp6{
+    padding-top: 15px;
+    margin-left: 260px;
+    color: white;
+}
+
+#arrow{
+    margin-top: 140px;
+    margin-left: 230px;
+}
+
+.info2{
+    width: 1120px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#border5{
+    margin: 10px auto;
+    border: 1px solid black;
+    width: 35px;
+}
+
+#infoP{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.flex3{
+    margin-top: 50px;
+    width: 1120px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pr{
+    margin-top: 25px;
+    color: #4089ED;
+}
+
+#button5{
+    margin-left: 925px;
+    margin-top: 80px;
+    border: 1px solid #458FF6;
+    border-radius: 25px;
+    color: #458FF6;
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 432px;
+    background-color: #67C3F3;
+    display: flex;
+    justify-content: space-around;
+}
+  
+#footerbox1,
+#footerbox2,
+#footerbox3,
+#footerbox4{
+    flex-basis: 22%; 
+    margin-top: 100px;
+    margin-bottom: auto;
+    height: 300px;
+}
+
+#icon2{
+    border-radius: 50px;
+    width: 40px;
+    height: 25px;
+    background-color: white;
+    color: #458FF6;
+    text-align: center;
+    padding-top: 12px; 
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    font-weight: bold;
+}
+
+#fp{
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fp2,#copy{
+    padding-top: 25px;
+    color: white;
+}
+
+#copy{
+    padding-top: 40px;
+}
+
+#footerbox2,#footerbox3,#footerbox4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    gap: 25px;
+}
+
+#fp3{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
